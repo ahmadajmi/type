@@ -1,0 +1,33 @@
+<header class='c-header'>
+
+  <div class='o-grid'>
+    <div class='o-grid__col o-grid__col--full'>
+      <div class='c-header__inner'>
+
+        <div class='o-grid'>
+          <div class='o-grid__col o-grid__col--full'>
+            <div class='c-logo u-text-center'>
+              <a class='c-logo__link' href='{{ site.baseurl }}/'>{{ site.title }}</a>
+            </div>
+          </div>
+
+          <div class='o-grid__col o-grid__col--1-4-s u-hidden'>
+            <div class='c-off-canvas-content'>
+              <ul class='c-nav o-plain-list '>
+                {% include navigation.html %}
+              </ul>
+            </div>
+          </div>
+
+          <div class='o-grid__col o-grid__col--1-4-s u-hidden'>
+            <label class='js-off-canvas-toggle c-off-canvas-toggle' aria-label='Toggle navigation'>
+              <span class='c-off-canvas-toggle__icon'></span>
+            </label>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+</header>

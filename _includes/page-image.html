@@ -1,0 +1,3 @@
+{% if page.image %}
+  <img src='{{ page.image | prepend: site.baseurl }}' class='c-post__image' alt='{{ page.title }}'>
+{% endif %}

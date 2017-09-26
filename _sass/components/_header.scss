@@ -1,0 +1,14 @@
+/*------------------------------------*\
+  Components > Header
+\*------------------------------------*/
+
+.c-header {
+  &__inner {
+    padding: $base-spacing-unit 0;
+    border-bottom: 1px solid $color-border;
+  }
+
+  &__icon {
+    vertical-align: middle;
+  }
+}

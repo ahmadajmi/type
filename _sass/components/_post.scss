@@ -1,0 +1,44 @@
+/*------------------------------------*\
+  Components > Post
+\*------------------------------------*/
+
+.c-post {
+  margin: 0 auto;
+  max-width: 740px;
+
+  &__title {
+    font-size: double($font-size-tiny);
+    margin-bottom: $base-spacing-unit;
+
+    @include mq($from: tablet) {
+      font-size: double($font-size-small);
+      line-height: double($line-height-medium);
+    }
+  }
+
+  &__date {
+    position: relative;
+    padding-top: $base-spacing-unit;
+    display: block;
+    text-align: center;
+    margin-bottom: $base-spacing-unit;
+    font-size: $font-size-small;
+    line-height: $line-height-small;
+    color: $color-gray;
+
+    &:after {
+      position: absolute;
+      content: '';
+      top: 0;
+      left: 50%;
+      height: 1px;
+      width: quadruple($base-spacing-unit);
+      background: $bg-color-gray;
+      transform: translateX(-50%);
+    }
+  }
+
+  &__image {
+    margin: 0 auto $base-spacing-unit;
+  }
+}

@@ -1,0 +1,16 @@
+/*------------------------------------*\
+  Components > Logo
+\*------------------------------------*/
+
+.c-logo {
+  &__link {
+    font-size: $font-size-base;
+    font-weight: $font-weight-bolder;
+    transition: $global-transition;
+
+    @include attention() {
+      color: $color-brand;
+      text-decoration: none;
+    }
+  }
+}

@@ -1,0 +1,40 @@
+/*------------------------------------*\
+  Components > Pagination
+\*------------------------------------*/
+
+.c-pagination {
+  text-transform: uppercase;
+  transition: $global-transition;
+
+  @include attention() {
+    color: $color-brand;
+    text-decoration: none;
+  }
+
+  &__text {
+    position: relative;
+    font-size: $font-size-small;
+    letter-spacing: 2px;
+
+    &--prev {
+      left: - $base-spacing-unit;
+    }
+
+    &--next {
+      right: - $base-spacing-unit;
+    }
+
+  }
+
+  &__icon {
+    vertical-align: text-top;
+
+    &--prev {
+      left: - half($base-spacing-unit);
+    }
+
+    &--next {
+      right: - half($base-spacing-unit);
+    }
+  }
+}

@@ -1,0 +1,19 @@
+/*------------------------------------*\
+  Elements > Page
+\*------------------------------------*/
+
+body {
+  color: $color-text;
+  font-size: $font-size-base;
+  font-family: $font-base;
+  font-weight: $font-weight-light;
+  line-height: $line-height-base;
+
+  -webkit-font-smoothing: antialiased;
+   -moz-osx-font-smoothing: grayscale;
+}
+
+*::selection {
+  color: $color-white;
+  background: $color-brand;
+}

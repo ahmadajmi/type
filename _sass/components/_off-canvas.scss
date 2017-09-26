@@ -1,0 +1,88 @@
+/*------------------------------------*\
+  Components > Off Canvas
+\*------------------------------------*/
+
+$off-canvas-width: 250px;
+
+.c-off-canvas-toggle {
+  position: relative;
+  z-index: 10;
+  height: 19px;
+  width: 25px;
+  cursor: pointer;
+  display: inline-block;
+  vertical-align: middle;
+
+  &__icon {
+    position: absolute;
+    left: 0;
+    height: 1px;
+    width: 25px;
+    background: $bg-color-dark;
+    cursor: pointer;
+
+    &:before,
+    &:after {
+      content: '';
+      display: block;
+      height: 100%;
+      background-color: inherit;
+      transition: $global-transition;
+    }
+
+    &:before { transform: translateY(16px) }
+    &:after { transform: translateY(7px); }
+
+    .c-off-canvas-toggle.is-active & {
+      top: half($base-spacing-unit);
+      background: $color-white;
+
+      visibility: hidden;
+
+      &:before,
+      &:after { visibility: visible; }
+
+      &:before { transform: rotate(-45deg); }
+      &:after { transform: rotate(45deg); }
+    }
+  }
+}
+
+// prevent horizontal scroll during off-canvas
+
+html,
+body {
+  overflow-x: hidden;
+}
+
+.c-off-canvas-content {
+  position: fixed;
+  top: 0;
+  left: 0;
+
+  width: $off-canvas-width;
+  height: 100%;
+  padding: double($base-spacing-unit);
+
+  transform: translate3d(- $off-canvas-width, 0, 0);
+}
+
+.c-off-canvas-container {
+  transform: translate3d(0, 0, 0);
+  transition: transform $global-transition cubic-bezier(.16, .68, .43, .99);
+
+  &.is-active {
+    transform: translate3d($off-canvas-width, 0, 0);
+
+    &:after {
+      position: fixed;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      content: '';
+      background-color: rgba(0, 0, 0, .5);
+    }
+  }
+}
+

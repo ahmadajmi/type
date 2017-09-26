@@ -1,0 +1,29 @@
+/*------------------------------------*\
+  Elements > Inputs
+\*------------------------------------*/
+
+$input-border: $color-border;
+$input-border-focused: $color-text;
+
+input[type='text'],
+input[type='tel'],
+input[type='number'],
+input[type='email'],
+select,
+textarea {
+  width: 100%;
+  padding: $base-spacing-unit;
+
+  border: 1px solid $color-border;
+  border-radius: 0;
+  outline: none;
+  background-color: $color-white;
+  font-size: $font-size-small;
+
+  appearance: none;
+  transition: $global-transition;
+
+  @include attention() {
+    border: 1px solid $input-border-focused;
+  }
+}

@@ -1,0 +1,96 @@
+/*------------------------------------*\
+  Objects > Grid
+\*------------------------------------*/
+
+$grid-width: 700px;
+$grid-gutter: $base-spacing-unit;
+
+.o-grid {
+  margin: 0 auto;
+  max-width: $grid-width;
+
+  @include clearfix();
+
+  .o-grid {
+    margin-right: - $grid-gutter;
+    margin-left: - $grid-gutter;
+    padding: 0;
+  }
+
+  &--full {
+    max-width: 100vw;
+  }
+}
+
+.o-grid__col {
+  padding-right: $grid-gutter;
+  padding-left: $grid-gutter;
+
+  &--1-4-s {
+    width: percentage(1 / 4);
+  } // 25%
+
+  &--1-3-s {
+    width: percentage(1 / 3);
+  } // 33.33333%;
+
+  &--2-4-s {
+    width: percentage(2 / 4);
+  } // 50%
+
+  &--3-4-s {
+    width: percentage(3 / 4);
+  } // 75%;
+
+  &--4-4-s {
+    width: 100%;
+  }
+
+  @include mq($from: tablet) {
+    &--1-4-m {
+      width: percentage(1 / 4);
+    } // 25%
+
+    &--1-3-m {
+      width: percentage(1 / 3);
+    } // 33.33333%;
+
+    &--2-4-m {
+      width: percentage(2 / 4);
+    } // 50%
+
+    &--3-4-m {
+      width: percentage(3 / 4);
+    } // 75%;
+  }
+
+  @include mq($from: desktop) {
+    &--1-4-l {
+      width: percentage(1 / 4);
+    } // 25%
+
+    &--1-3-l {
+      width: percentage(1 / 3);
+    } // 33.33333%;
+
+    &--2-4-l {
+      width: percentage(2 / 4);
+    } // 50%
+
+    &--3-4-l {
+      width: percentage(3 / 4);
+    } // 75%;
+  }
+
+  &--full {
+    width: 100%;
+  }
+
+  &--center {
+    margin: 0 auto;
+  }
+
+  &--end {
+    margin-left: auto;
+  }
+}

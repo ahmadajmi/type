@@ -1,0 +1,48 @@
+/*------------------------------------*\
+  Components > Post Card
+\*------------------------------------*/
+
+.c-post-card {
+  display: block;
+  padding: double($base-spacing-unit) 0;
+  word-break: break-word;
+  border-bottom: 1px solid $color-border;
+
+  &--first {
+    padding-top: 0;
+  }
+
+  &--last {
+    padding-bottom: 0;
+    border-bottom: 0;
+  }
+
+  &__title {
+    margin-bottom: half($font-size-base);
+    font-size: $font-size-base;
+    font-weight: $font-weight-bold;
+    transition: $global-transition;
+  }
+
+  &__excerpt {
+    margin-bottom: half($font-size-base);
+  }
+
+  &__date {
+    display: block;
+    color: $color-gray;
+    direction: ltr;
+    font-size: $font-size-tiny;
+    line-height: $line-height-small;
+    text-transform: uppercase;
+  }
+
+  &:hover {
+    color: $color-text;
+    text-decoration: none;
+
+    .c-post-card__title {
+      color: $color-brand;
+    }
+  }
+}

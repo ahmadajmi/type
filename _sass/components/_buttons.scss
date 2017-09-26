@@ -1,0 +1,38 @@
+/*------------------------------------*\
+  Components > Buttons
+\*------------------------------------*/
+
+$btn-bg:       #207cdf;
+$btn-bg-hover: #238cf6;
+
+.c-btn {
+  display: inline-block;
+  padding: half($base-spacing-unit) double($base-spacing-unit);
+
+  cursor: pointer;
+  transition: $global-transition;
+  text-align: center;
+  vertical-align: middle;
+  white-space: nowrap;
+  line-height: inherit;
+
+  border: 0;
+  border-radius: 0;
+
+  color: $color-white;
+  background-color: $btn-bg;
+  font-size: $font-size-medium;
+
+  @include attention() {
+    text-decoration: none;
+    background-color: $btn-bg-hover;
+  }
+
+  &--full {
+    width: 100%;
+  }
+
+  &--small {
+    padding: quarter($base-spacing-unit) $base-spacing-unit;
+  }
+}
