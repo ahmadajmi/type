@@ -23,6 +23,7 @@ $grid-gutter: $base-spacing-unit;
 }
 
 .o-grid__col {
+  float: left;
   padding-right: $grid-gutter;
   padding-left: $grid-gutter;
 
