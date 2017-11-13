@@ -2,7 +2,6 @@
 layout: post
 title: Welcome to Jekyll!
 featured: true
-author: ahmad
 tags: [frontpage, jekyll, blog]
 image: '/images/posts/image18.jpeg'
 ---

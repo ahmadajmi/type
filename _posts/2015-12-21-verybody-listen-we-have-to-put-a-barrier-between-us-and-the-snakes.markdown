@@ -1,7 +1,6 @@
 ---
 layout: post
 title: I get paid all day, every day, which is almost too much for artist
-author: ahmad
 tags: [frontpage, jekyll, blog]
 image: '/images/posts/image12.jpeg'
 ---

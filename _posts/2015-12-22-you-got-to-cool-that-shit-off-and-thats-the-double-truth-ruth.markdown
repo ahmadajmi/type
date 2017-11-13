@@ -1,7 +1,6 @@
 ---
 layout: post
 title: You got to cool that off. And that's the double-truth, Ruth
-author: ahmad
 tags: [frontpage, jekyll, blog]
 image: '/images/posts/image17.jpeg'
 ---

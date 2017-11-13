@@ -1,7 +1,6 @@
 ---
 layout: post
 title: I get paid all day, every day, which is almost too much for sensitive
-author: ahmad
 tags: [frontpage, jekyll, blog]
 image: '/images/posts/image5.jpeg'
 ---

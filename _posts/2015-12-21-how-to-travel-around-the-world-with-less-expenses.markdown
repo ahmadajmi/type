@@ -1,7 +1,6 @@
 ---
 layout: post
 title: How to travel around the world with less expenses
-author: ahmad
 tags: [frontpage, jekyll, blog]
 image: '/images/posts/image4.jpeg'
 ---
