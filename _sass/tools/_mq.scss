@@ -68,7 +68,7 @@ $mq-static-breakpoint: desktop !default;
 $mq-show-breakpoints: () !default;
 
 /// Customize the media type (e.g. `@media screen` or `@media print`)
-/// By default sass-mq uses an "all" media type (`@media all and …`)
+/// By default sass-mq uses an "all" media type (`@media all and ...`)
 ///
 /// @type String
 /// @link https://github.com/sass-mq/sass-mq#changing-media-type Full documentation and examples
@@ -119,7 +119,7 @@ $mq-media-type: all !default;
 /// @param {String | Boolean} $from (false) - One of $mq-breakpoints
 /// @param {String | Boolean} $until (false) - One of $mq-breakpoints
 /// @param {String | Boolean} $and (false) - Additional media query parameters
-/// @param {String} $media-type ($mq-media-type) - Media type: screen, print…
+/// @param {String} $media-type ($mq-media-type) - Media type: screen, print...
 ///
 /// @ignore Undocumented API, for advanced use only:
 /// @ignore @param {Map} $breakpoints ($mq-breakpoints)
@@ -276,7 +276,7 @@ $mq-media-type: all !default;
         @each $show-breakpoint in $show-breakpoints {
             $width: mq-get-breakpoint-width($show-breakpoint, $breakpoints);
             @include mq($show-breakpoint, $breakpoints: $breakpoints) {
-                content: "#{$show-breakpoint} ≥ #{$width} (#{mq-px2em($width)})";
+                content: "#{$show-breakpoint} >= #{$width} (#{mq-px2em($width)})";
             }
         }
     }

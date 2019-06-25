@@ -91,7 +91,7 @@ image: '/images/welcome.jpg'
 
 You can set the author, featured or not, tags, and the post image.
 
-The `featured` key is to mark the post as a featured post, this will add a simple star icon (☆) to the post card.
+The `featured` key is to mark the post as a featured post, this will add a simple star icon (*) to the post card.
 
 To keep things more organized, add post images to **/images/pages** directory, and add page images to **/images/pages** directory.
 
