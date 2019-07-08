@@ -21,5 +21,5 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec diam augue, luctu
 
 ##### Quote
 
-> Graphic design is the paradise of individuality, eccentricity, heresy, abnormality, hobbies, and humors. — George Santayana
+> Graphic design is the paradise of individuality, eccentricity, heresy, abnormality, hobbies, and humors. - George Santayana
 
