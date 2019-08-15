@@ -18,12 +18,12 @@ facebook:    ''
 
 markdown:  kramdown
 permalink: pretty
-paginate:  60
+paginate:  10
 
 sass:
   style: compressed
 
-gems:
+plugins:
   - jekyll-paginate
   - jekyll/tagging
 

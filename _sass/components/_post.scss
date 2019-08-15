@@ -12,7 +12,6 @@
 
     @include mq($from: tablet) {
       font-size: double($font-size-small);
-      line-height: double($line-height-medium);
     }
   }
 
@@ -23,6 +22,7 @@
     text-align: center;
     margin-bottom: $base-spacing-unit;
     font-size: $font-size-small;
+    font-weight: $font-weight-bold;
     line-height: $line-height-small;
     color: $color-gray;
 

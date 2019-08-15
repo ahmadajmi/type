@@ -5,11 +5,11 @@ tags: [frontpage, jekyll, blog]
 image: '/images/posts/8.jpg'
 ---
 
-Lorem ipsum dolor sit amet, vix ut case porro facilisis, alia possit neglegentur vis te. Has cu eirmod abhorreant, vel civibus efficiantur cu. Eu summo elitr vix, iusto putant maluisset per ut, ne etiam vivendum adipisci vel. Vis omnis tempor accusam ei, justo perpetua liberavisse cu qui. Saperet aliquando adipiscing ius ne, ne facer euripidis est. Pro mundi nostrum suavitate et.
+I can remember about 4 years ago, I started to make HTML templates for ThemeForest. Unfortunately, I failed to pass the quality stage and I was not getting enough feedback from them. I was getting a general sentence saying that my item is not ready yet and the design quality is not unique enough.
 
-Vix dico eius nominati cu, ex zril commodo fuisset mea. Habeo adhuc audiam ius no. In quis virtute officiis has. Vix ad honestatis accommodare, quis virtute et sit, pertinax expetenda eam id. Duo an fuisset delectus dissentias, justo altera ea per.
+Fortunately, I succeed this time I have leaned and done things I have never done before that keeps me learn new stuff every single day and I want to share with you some tips about starting your own business creating themes like WordPress, Ghost, or Jekyll. I think these tips will work with any online business not only for themes.
 
-##### Todo
+### Todo
 
 Duis id ante elit. Aliquam quis tellus id orci eleifend finibus. Donec consequat justo ligula, eget sodales purus hendrerit at.
 
@@ -18,7 +18,7 @@ Duis id ante elit. Aliquam quis tellus id orci eleifend finibus. Donec consequat
     Donec nibh massa, rutrum a sollicitudin eu,
 lacinia in lorem.
 
-##### Graphic design
+### Graphic design
 
 > Graphic design is the paradise of individuality, eccentricity, heresy, abnormality, hobbies, and humors. - George Santayana
 

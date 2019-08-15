@@ -7,6 +7,8 @@ $grid-gutter: $base-spacing-unit;
 
 .o-grid {
   margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
   max-width: $grid-width;
 
   @include clearfix();

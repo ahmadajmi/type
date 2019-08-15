@@ -1,24 +1,20 @@
-# Type
+# Type: Minimal and Clean Free Jekyll Theme
 
-Minimal and Clean Jekyll Theme.
+<img alt="Type: Minimal and Clean Free Jekyll Theme" src="https://user-images.githubusercontent.com/626005/63093493-c3daa880-bf65-11e9-860e-da88047cce24.png">
 
----
-
-* [Configurations](#configurations)
-* [Deployment](#deployment)
-* [Posts](#posts)
-* [Pages](#pages)
-* [Navigation](#navigation)
-* [Disqus Comments](#disqus-comments)
-* [Google Analytics](#google-analytics)
-* [Social Media Links](#social-media-links)
-* [Update favicon](#update-favicon)
-
----
+- [Configurations](#configurations)
+- [Deployment](#deployment)
+- [Posts](#posts)
+- [Pages](#pages)
+- [Navigation](#navigation)
+- [Disqus Comments](#disqus-comments)
+- [Google Analytics](#google-analytics)
+- [Social Media Links](#social-media-links)
+- [Update favicon](#update-favicon)
 
 ### Configurations
 
-Maxima theme comes with different customizations in the `_config.yml` file:
+Type theme comes with different customizations in the `_config.yml` file:
 
 ```sh
 title:       Type
@@ -63,21 +59,17 @@ defaults:
       permalink: /:basename:output_ext
 ```
 
----
-
 ### Deployment
 
 To run the theme locally, navigate to the theme directory and run `bundle install` to install the dependencies, then run `jekyll serve` to start the Jekyll server.
 
 I would recommend checking the [Deployment Methods](https://jekyllrb.com/docs/deployment-methods/) page on Jekyll website.
 
----
-
 ### Posts
 
 To create a new post, you can create a new markdown file inside the `_posts` directory by following the [recommended file structure](https://jekyllrb.com/docs/posts/#creating-post-files).
 
-The following is a post file with different configurations you can add as example:
+The following is a post file with different configurations you can add as an example:
 
 ```sh
 ---
@@ -91,7 +83,7 @@ image: '/images/welcome.jpg'
 
 You can set the author, featured or not, tags, and the post image.
 
-The `featured` key is to mark the post as a featured post, this will add a simple star icon (*) to the post card.
+The `featured` key is to mark the post as a featured post, this will add a simple star icon (*) to the postcard.
 
 To keep things more organized, add post images to **/images/pages** directory, and add page images to **/images/pages** directory.
 
@@ -103,8 +95,6 @@ Note that tags are not working with GitHub Pages, that's because the used [jekyl
 ](https://github.com/pattex/jekyll-tagging) plugin is not [whitelisted](https://pages.github.com/versions/) by GitHub.
 
 To make this work, I use [Netlify.com](https://www.netlify.com/) for deployment.
-
----
 
 ### Pages
 
@@ -122,13 +112,10 @@ image: '/images/pages/about.jpeg'
 
 Things you can change are: `title` and `image` path.
 
----
 
 ### Navigation
 
 The navigation on the sidebar will automatically include all the links to the pages you have created.
-
----
 
 ### Disqus Comments
 
@@ -149,8 +136,6 @@ s.src = '//exampleone.disqus.com/embed.js';
 That's all you need to setup Disqus from the theme side. If you get any issue regarding that comments are unable to load. First, make sure you have [registered your website with Disqus (Step 1)](https://help.disqus.com/customer/portal/articles/466182-publisher-quick-start-guide)
 
 And also check [Disqus troubleshooting guide](https://help.disqus.com/customer/portal/articles/472007-i-m-receiving-the-message-%22we-were-unable-to-load-disqus-%22) if you still have issues.
-
----
 
 ### Google Analytics
 
@@ -216,12 +201,13 @@ Youtube
 <span data-icon='ei-sc-youtube' data-size='s'></span>
 ```
 
----
-
 ### Update favicon
 
 You can find the current favicon (favicon.ico) inside the theme root directory, just replace it with your new favicon.
 
----
 
-👉 Visit [aspirehemes.com](http://aspirethemes.com) for more Jekyll, Ghost, and WordPress themes.
+### Aspire Themes
+
+👉 Visit [aspirethemes.com](http://aspirethemes.com) for more Jekyll, Ghost, and WordPress themes.
+
+<img alt="Aspire Themes" src="https://user-images.githubusercontent.com/626005/63092640-afe17780-bf62-11e9-9ea9-546489bb282c.png">

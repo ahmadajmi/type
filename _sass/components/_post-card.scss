@@ -22,6 +22,10 @@
     font-size: $font-size-base;
     font-weight: $font-weight-bold;
     transition: $global-transition;
+
+    @include mq($from: tablet) {
+      font-size: double($font-size-small);
+    }
   }
 
   &__excerpt {
@@ -33,6 +37,7 @@
     color: $color-gray;
     direction: ltr;
     font-size: $font-size-tiny;
+    font-weight: $font-weight-bold;
     line-height: $line-height-small;
     text-transform: uppercase;
   }
