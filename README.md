@@ -208,6 +208,6 @@ You can find the current favicon (favicon.ico) inside the theme root directory, 
 
 ### Aspire Themes
 
-👉 Visit [aspirethemes.com](http://aspirethemes.com) for more Jekyll, Ghost, and WordPress themes.
+👉 Visit [**aspirethemes.com**](http://bit.ly/type-jekyll-github-link) for more Jekyll, Ghost, and WordPress themes.
 
 <img alt="Aspire Themes" src="https://user-images.githubusercontent.com/626005/63092640-afe17780-bf62-11e9-9ea9-546489bb282c.png">
