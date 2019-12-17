@@ -119,9 +119,7 @@ The navigation on the sidebar will automatically include all the links to the pa
 
 ### Disqus Comments
 
-Maxima Theme comes with Disqus comments enabled.
-
-Open `_includes/disqus.html` file, and change the `aspirethemes` value on line 15 with your [Disqus account shortname](https://help.disqus.com/customer/portal/articles/466208).
+Open `_includes/disqus.html` file, and change the `aspirethemes-demos` value on line `12` with your [Disqus account shortname](https://help.disqus.com/customer/portal/articles/466208).
 
 ```js
 s.src = '//aspirethemes-demo.disqus.com/embed.js';
