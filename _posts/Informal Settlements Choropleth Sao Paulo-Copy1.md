@@ -4,6 +4,17 @@ empecemos por algo simple: mapa de cuanta gente por AGSN en SP en choropleth y q
 
 
 ```python
+---
+layout: post
+title: Welcome to Jekyll!
+featured: true
+tags: [frontpage, jekyll, blog]
+image: '/images/welcome.jpg'
+---
+```
+
+
+```python
 #!pip install leafmap
 # Important library for many geopython libraries
 #!pip install gdal-bin python-gdal python3-gdal 
