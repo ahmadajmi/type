@@ -1,3 +1,4 @@
 1. de donde conseguir la data
 2. cuales proyecciones
 3. big raster orthographic projection artifact: how to fix? en este caso era porque no estaba reprojyectado
+4. al crear el mapa, cero scalebar because orthographic projection and not in UTM https://gis.stackexchange.com/questions/375487/scale-bar-in-qgis-shows-incorrect-measurements
