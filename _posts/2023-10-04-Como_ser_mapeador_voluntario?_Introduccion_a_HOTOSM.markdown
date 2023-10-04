@@ -1,3 +1,11 @@
+---
+layout: post
+title: once upon a time
+tags: [frontpage, jekyll, blog]
+image: '/images/posts/eib_logo.png'
+---
+
+
 OSM es... 
 
 Luego del terremoto en Haiti, se necesitaba data geoespacial para asesorar donde buscar posible sobrevivientes al desastre, y visializar los impactos estructurales del terremoto. Ante la ausencia de esta inforamcion, HOTOSM nacio para dar apoyo a traves de la red de voluntarios a los paises con falta de informacion geospacial.
