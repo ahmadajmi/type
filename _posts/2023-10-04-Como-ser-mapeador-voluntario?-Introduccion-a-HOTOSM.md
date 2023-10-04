@@ -2,7 +2,7 @@
 layout: post
 title: once upon a time
 tags: [frontpage, jekyll, blog]
-image: '/images/posts/eib_logo.png'
+image: '/images/posts/Hot_logo_with_text_300x125.png'
 ---
 
 Hay veces que queremos aportar a mejorar la sociedad, pero ya sea porque no estas en tu pais o porque el clima lo impide, no siempre puedes. HOTOSM te da la opcion de aportar a cualquier lugar del mundo a traves de tu computadora. 
