@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Voluntariado un pixel a la vez: HOTOSM voluntariado remoto virtual
+title: Voluntariado un pixel a la vez HOTOSM voluntariado remoto virtual
 tags: [frontpage, jekyll, blog]
 image: '/images/posts/Hot_logo_with_text_300x125.png'
 ---
