@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Voluntariado un pixel a la vez HOTOSM voluntariado remoto virtual
+title: Voluntariado un pixel a la vez HOTOSM voluntariado remoto virtual tutorial
 tags: [frontpage, jekyll, blog]
 image: '/images/posts/Hot_logo_with_text_300x125.png'
 ---
@@ -13,10 +13,16 @@ Actualmente, el trabajo de HOTOSM esta alrededor del mundo, especialmente en el 
 
 El acto de mapear puede parecer algo muy tecnico y especifico, pero la verdad es que son destrezas que todos podemos desarrollar. 
 
-El primer paso que debes hacer es registrarte. 
+Paso 1: El primer paso que debes hacer es registrarte. 
 
 Como la mayoria de proyectos, principalmente para principiantes, es mapeando edificios, mira este video de como iniciar: 
 
+Paso 2: Seleccionar proyecto 
+Puedes bucar por prioridad, nombre, numero del proyecto
+
+Paso 3: click a mapear
+
+Paso 4: 
 
 
 Algunos tips importantes: 
