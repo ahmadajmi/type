@@ -84,7 +84,7 @@ You can set the author, featured or not, tags, and the post image.
 
 The `featured` key is to mark the post as a featured post, this will add a simple star icon (*) to the postcard.
 
-To keep things more organized, add post images to **/images/pages** directory, and add page images to **/images/pages** directory.
+To keep things more organized, add post images to **/images/posts** directory, and add page images to **/images/pages** directory.
 
 To create a draft post, create the post file under the **_drafts** directory, and you can find more information at [Working with Drafts](http://jekyllrb.com/docs/drafts/).
 
