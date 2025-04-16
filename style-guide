@@ -1,9 +1,3 @@
----
-layout: page
-title: Style Guide
-image: '/images/pages/styleguide.jpg'
----
-
 At [Aspire Themes](http://aspirethemes.com/) I use a lot of tools to help me create WordPress, Ghost and Jekyll themes. Tools will range from development, design, services, hosting and automation.
 
 Graphic design is the paradise of individuality, eccentricity, heresy, abnormality, hobbies, and humors. - George Santayana.

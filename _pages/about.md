@@ -1,11 +1,8 @@
 ---
 layout: page
-title: About
-image: '/images/pages/about.jpeg'
+title: about
+image: '/images/pages/ISABELA PI-04.png'
 ---
 
-You love Minimalism, and you also love writing, Type is designed for you. Type focus on showing your content in a clean and simple way, focus on images, typography, and white space.
-
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
-
-Lorem ipsum dolor sit amet, vix ut case porro facilisis, alia possit neglegentur vis te. Has cu eirmod abhorreant, vel civibus efficiantur cu. Eu summo elitr vix, iusto putant maluisset per ut, ne etiam vivendum adipisci vel. Vis omnis tempor accusam ei, justo perpetua liberavisse cu qui. Saperet aliquando adipiscing ius ne, ne facer euripidis est. Pro mundi nostrum suavitate et.
+I'm a environmental science student focused in using remote sensing and geospatial techniques for sustainable decision-making. 
+In these pages I will practice what I've learned so far in my master studies but applying them on other datasets. Also, I will keep track of my progress on my thesis topic, in an effort to keep my thoughts and achievements in order :)
